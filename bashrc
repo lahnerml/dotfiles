@@ -45,6 +45,13 @@ export HISTFILE=~/.bash_eternal_history
 # http://superuser.com/questions/20900/bash-history-loss
 PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
 
+# find pip installed stuff with --user
+export PATH=${HOME}/.local/bin:${PATH}
+
+# go settings
+export GOROOT=${HOME}/go
+export GOPATH=${HOME}/go/bin
+export PATH=${HOME}/go/bin/:${PATH}
 
 eval "$(thefuck --alias)"
 
