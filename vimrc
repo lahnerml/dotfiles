@@ -4,25 +4,25 @@ endif
 
 set encoding=UTF8
 
-# line numbering
+" line numbering
 set nu
 set rnu
 
-# syntax highlight
+" syntax highlight
 syntax enable
 syntax on
 set showmatch
 
-# colorscheme
+" colorscheme
 colo elflord
 
-# search options
+" search options
 set ignorecase
 set smartcase
 set incsearch
 set hlsearch
 
-# key mappings
+" key mappings
 let mapleader = ","
 
 nnoremap <leader>c :nohl<CR>
